@@ -1,0 +1,1 @@
+package com.clinicas.dao; import com.clinicas.model.Turno; import java.util.*; public interface DoctorTurnoDao{ void add(int idDoctor,int idTurno) throws Exception; void remove(int idDoctor,int idTurno) throws Exception; List<Turno> findByDoctor(int idDoctor) throws Exception; }

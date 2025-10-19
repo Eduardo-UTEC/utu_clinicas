@@ -1,0 +1,1 @@
+package com.clinicas.dao; import com.clinicas.model.Especializacion; import java.util.*; public interface EspecializacionDao{ int insert(Especializacion e) throws Exception; int update(Especializacion e) throws Exception; int delete(int id) throws Exception; List<Especializacion> findAll() throws Exception; Especializacion findById(int id) throws Exception; }

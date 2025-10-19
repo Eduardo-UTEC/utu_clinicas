@@ -1,0 +1,1 @@
+package com.clinicas.model; public class Especializacion{ private Integer idEspecializacion; private String nombre; public Integer getIdEspecializacion(){return idEspecializacion;} public void setIdEspecializacion(Integer v){idEspecializacion=v;} public String getNombre(){return nombre;} public void setNombre(String v){nombre=v;} public String toString(){return nombre;} }

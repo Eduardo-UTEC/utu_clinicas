@@ -1,0 +1,1 @@
+package com.clinicas.model; public class DoctorEspecializacion{ private Integer idDoctor,idEspecializacion; public Integer getIdDoctor(){return idDoctor;} public void setIdDoctor(Integer v){idDoctor=v;} public Integer getIdEspecializacion(){return idEspecializacion;} public void setIdEspecializacion(Integer v){idEspecializacion=v;} }

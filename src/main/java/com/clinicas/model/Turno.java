@@ -1,0 +1,1 @@
+package com.clinicas.model; public class Turno{ private Integer idTurno; private String nombre; public Integer getIdTurno(){return idTurno;} public void setIdTurno(Integer v){idTurno=v;} public String getNombre(){return nombre;} public void setNombre(String v){nombre=v;} public String toString(){return nombre;} }
